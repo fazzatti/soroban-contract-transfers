@@ -1,0 +1,23 @@
+reference/
+
+# Rust/Cargo build artifacts
+target/
+Cargo.lock
+
+# IDE
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Environment files
+.env
+.env.local
+
+# Output files
+output.json
+*.wasm
+.github/
+
+.data
