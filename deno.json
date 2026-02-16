@@ -8,7 +8,11 @@
     "c:o2o": "deno run --allow-read --allow-write --allow-net --allow-env typescript/src/invoke-c.ts one_to_one",
     "c:o2m": "deno run --allow-read --allow-write --allow-net --allow-env typescript/src/invoke-c.ts one_to_many",
     "c:m2o": "deno run --allow-read --allow-write --allow-net --allow-env typescript/src/invoke-c.ts many_to_one",
-    "c:m2m": "deno run --allow-read --allow-write --allow-net --allow-env typescript/src/invoke-c.ts many_to_many"
+    "c:m2m": "deno run --allow-read --allow-write --allow-net --allow-env typescript/src/invoke-c.ts many_to_many",
+    "c2g:o2o": "deno run --allow-read --allow-write --allow-net --allow-env typescript/src/invoke-c-to-g.ts one_to_one",
+    "c2g:o2m": "deno run --allow-read --allow-write --allow-net --allow-env typescript/src/invoke-c-to-g.ts one_to_many",
+    "c2g:m2o": "deno run --allow-read --allow-write --allow-net --allow-env typescript/src/invoke-c-to-g.ts many_to_one",
+    "c2g:m2m": "deno run --allow-read --allow-write --allow-net --allow-env typescript/src/invoke-c-to-g.ts many_to_many"
   },
   "imports": {
     "@colibri/core": "jsr:@colibri/core@^0.15.0",
