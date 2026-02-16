@@ -12,7 +12,7 @@ import { loadWasmFile } from "./utils/load-wasm.ts";
 import { DeploymentData } from "./config/types.ts";
 
 const admin = LocalSigner.generateRandom();
-const usersToCreate = 100;
+const usersToCreate = 5;
 
 const XLM = StellarAssetContract.NativeXLM(networkConfig);
 
